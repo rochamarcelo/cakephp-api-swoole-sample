@@ -38,6 +38,7 @@ class ContinentsTable extends Table
         parent::initialize($config);
 
         $this->setTable('continents');
+        $this->setPrimaryKey('code');
         $this->setDisplayField('name');
     }
 
