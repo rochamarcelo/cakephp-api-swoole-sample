@@ -10,6 +10,7 @@ use Cake\Event\EventDispatcherTrait;
 use Cake\Event\EventInterface;
 use Cake\Http\MiddlewareQueue;
 use Cake\Http\Runner;
+use CakeDC\Api\Service\ServiceRegistry;
 
 class SwooleServer
 {
@@ -56,6 +57,7 @@ class SwooleServer
         $this->http->on(
             "request",
             function (\Swoole\Http\Request $request, \Swoole\Http\Response $response) {
+                ServiceRegistry::getServiceLocator()->clear();
                 $middleware = $this->app->middleware(new MiddlewareQueue());
                 if ($this->app instanceof PluginApplicationInterface) {
                     $middleware = $this->app->pluginMiddleware($middleware);
