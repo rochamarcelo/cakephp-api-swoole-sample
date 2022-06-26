@@ -20,7 +20,7 @@ use CakeDC\Api\ApiInitializer;
 return [
     'Api' => [
         // if service class is not defined we use crud fallback service
-        'ServiceFallback' => '\\CakeDC\\Api\\Service\\FallbackService',
+        'ServiceFallback' => '\\App\\Service\\AppFallbackService',
         // response rendered as JSend
         'renderer' => 'CakeDC/Api.JSend',
         // Data parse from cakephp request object
