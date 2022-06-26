@@ -1,0 +1,40 @@
+# This docker-compose.yml file shows how Supervisor program(s) are reloaded automatically when file changes detected
+# under web root /var/www. There are two environment variables used:
+#     1. AUTORELOAD_PROGRAMS: space-separated Supervisor program(s) to be reloaded when file changes detected. e.g.,
+#            AUTORELOAD_PROGRAMS: "swoole"       # Autoreload Supervisor program "swoole" only.
+#            AUTORELOAD_PROGRAMS: "swoole nginx" # Autoreload Supervisor program "swoole" and "nginx".
+#     2. AUTORELOAD_ANY_FILES: Optional. If set to "true", "1", "yes", or "y", reload Supervisor program(s) when any
+#        files under the root directory (/var/www in this example) is changed; otherwise, reload only when PHP file(s)
+#        are changed.
+#
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: e15-api-app
+    environment:
+      AUTORELOAD_PROGRAMS: "swoole"
+      AUTORELOAD_ANY_FILES: 0
+      # Don't use simple password like this one on production
+      DATABASE_URL: "mysql://my_app:secret@mysql/my_app?encoding=utf8&timezone=UTC&cacheMetadata=true"
+    ports:
+      - "80:9501"
+      - "9090:9090"
+    volumes:
+      - ./:/var/www
+  mysql:
+    image: mysql:5.7
+    container_name: e15-api-mysql
+    working_dir: /application
+    volumes:
+      - .:/application
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_DATABASE=my_app
+      - MYSQL_USER=my_app
+      - MYSQL_PASSWORD=secret
+    # Don't use simple password like this one on production
+    command: mysqld --sql_mode="NO_ENGINE_SUBSTITUTION" --character-set-server=utf8 --collation-server=utf8_general_ci --init-connect='SET NAMES UTF8;' --innodb-flush-log-at-trx-commit=0
+    ports:
+      - "3306:3306"
