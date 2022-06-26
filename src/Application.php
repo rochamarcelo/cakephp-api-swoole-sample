@@ -64,6 +64,8 @@ class Application extends BaseApplication
         }
 
         // Load more plugins here
+        Configure::write('Api.config', ['api']);
+        $this->addPlugin('CakeDC/Api', ['bootstrap' => true, 'routes' => true]);
     }
 
     /**
