@@ -2795,22 +2795,23 @@
         },
         {
             "name": "cakephp/bake",
-            "version": "2.7.1",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "808608b039088f7276b7128c1880ce6a915810b5"
+                "reference": "fc7440b14a0b8cc5124164500e8cc3cca5f60fdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/808608b039088f7276b7128c1880ce6a915810b5",
-                "reference": "808608b039088f7276b7128c1880ce6a915810b5",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/fc7440b14a0b8cc5124164500e8cc3cca5f60fdd",
+                "reference": "fc7440b14a0b8cc5124164500e8cc3cca5f60fdd",
                 "shasum": ""
             },
             "require": {
                 "brick/varexporter": "^0.3.5",
                 "cakephp/cakephp": "^4.3.0",
                 "cakephp/twig-view": "^1.0.2",
+                "nikic/php-parser": "^4.13.2",
                 "php": ">=7.2"
             },
             "require-dev": {
@@ -2847,7 +2848,7 @@
                 "issues": "https://github.com/cakephp/bake/issues",
                 "source": "https://github.com/cakephp/bake"
             },
-            "time": "2022-07-22T05:28:18+00:00"
+            "time": "2022-09-19T02:34:05+00:00"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
@@ -6169,16 +6170,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.4.1",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "e939eae92386b69b49cfa4599dd9bead6bf4a342"
+                "reference": "e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e939eae92386b69b49cfa4599dd9bead6bf4a342",
-                "reference": "e939eae92386b69b49cfa4599dd9bead6bf4a342",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077",
+                "reference": "e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077",
                 "shasum": ""
             },
             "require": {
@@ -6229,7 +6230,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.4.1"
+                "source": "https://github.com/twigphp/Twig/tree/v3.4.2"
             },
             "funding": [
                 {
@@ -6241,7 +6242,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-17T05:48:52+00:00"
+            "time": "2022-08-12T06:47:24+00:00"
         }
     ],
     "aliases": [],
