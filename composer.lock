@@ -764,16 +764,16 @@
         },
         {
             "name": "laminas/laminas-diactoros",
-            "version": "2.16.0",
+            "version": "2.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-diactoros.git",
-                "reference": "49f3f7a3b30ff5a0e62e9b5d16584451f59de65c"
+                "reference": "5b32597aa46b83c8b85bb1cf9a6ed4fe7dd980c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/49f3f7a3b30ff5a0e62e9b5d16584451f59de65c",
-                "reference": "49f3f7a3b30ff5a0e62e9b5d16584451f59de65c",
+                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/5b32597aa46b83c8b85bb1cf9a6ed4fe7dd980c5",
+                "reference": "5b32597aa46b83c8b85bb1cf9a6ed4fe7dd980c5",
                 "shasum": ""
             },
             "require": {
@@ -857,34 +857,34 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-08-28T21:10:44+00:00"
+            "time": "2022-08-30T17:01:46+00:00"
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
-                "reference": "4d337cde83e6b901a4443b0ab5c3b97cbaa46413"
+                "reference": "eb670c5c7167cd218c61a8b4f6ab9ce339200c16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/4d337cde83e6b901a4443b0ab5c3b97cbaa46413",
-                "reference": "4d337cde83e6b901a4443b0ab5c3b97cbaa46413",
+                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/eb670c5c7167cd218c61a8b4f6ab9ce339200c16",
+                "reference": "eb670c5c7167cd218c61a8b4f6ab9ce339200c16",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.3 || ~8.0.0 || ~8.1.0",
+                "php": "^7.4 || ~8.0.0 || ~8.1.0",
                 "psr/http-message": "^1.0",
                 "psr/http-message-implementation": "^1.0",
                 "psr/http-server-handler": "^1.0"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~2.3.0",
-                "laminas/laminas-diactoros": "^2.8.0",
-                "phpunit/phpunit": "^9.5.9",
-                "psalm/plugin-phpunit": "^0.16.1",
-                "vimeo/psalm": "^4.10.0"
+                "laminas/laminas-coding-standard": "~2.4.0",
+                "laminas/laminas-diactoros": "^2.13.0",
+                "phpunit/phpunit": "^9.5.21",
+                "psalm/plugin-phpunit": "^0.17.0",
+                "vimeo/psalm": "^4.24.0"
             },
             "type": "library",
             "extra": {
@@ -924,7 +924,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-09-22T09:27:36+00:00"
+            "time": "2022-09-17T16:24:51+00:00"
         },
         {
             "name": "lcobucci/clock",
@@ -2795,22 +2795,23 @@
         },
         {
             "name": "cakephp/bake",
-            "version": "2.7.1",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "808608b039088f7276b7128c1880ce6a915810b5"
+                "reference": "fc7440b14a0b8cc5124164500e8cc3cca5f60fdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/808608b039088f7276b7128c1880ce6a915810b5",
-                "reference": "808608b039088f7276b7128c1880ce6a915810b5",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/fc7440b14a0b8cc5124164500e8cc3cca5f60fdd",
+                "reference": "fc7440b14a0b8cc5124164500e8cc3cca5f60fdd",
                 "shasum": ""
             },
             "require": {
                 "brick/varexporter": "^0.3.5",
                 "cakephp/cakephp": "^4.3.0",
                 "cakephp/twig-view": "^1.0.2",
+                "nikic/php-parser": "^4.13.2",
                 "php": ">=7.2"
             },
             "require-dev": {
@@ -2847,7 +2848,7 @@
                 "issues": "https://github.com/cakephp/bake/issues",
                 "source": "https://github.com/cakephp/bake"
             },
-            "time": "2022-07-22T05:28:18+00:00"
+            "time": "2022-09-19T02:34:05+00:00"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
@@ -6165,16 +6166,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.4.1",
+            "version": "v3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "e939eae92386b69b49cfa4599dd9bead6bf4a342"
+                "reference": "e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e939eae92386b69b49cfa4599dd9bead6bf4a342",
-                "reference": "e939eae92386b69b49cfa4599dd9bead6bf4a342",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077",
+                "reference": "e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077",
                 "shasum": ""
             },
             "require": {
@@ -6225,7 +6226,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.4.1"
+                "source": "https://github.com/twigphp/Twig/tree/v3.4.2"
             },
             "funding": [
                 {
@@ -6237,7 +6238,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-17T05:48:52+00:00"
+            "time": "2022-08-12T06:47:24+00:00"
         }
     ],
     "aliases": [],
