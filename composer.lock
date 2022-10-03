@@ -359,16 +359,16 @@
         },
         {
             "name": "cakephp/cakephp",
-            "version": "4.4.5",
+            "version": "4.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "45c91d7ed8a8804d20daf2e001e8e2b292aed77d"
+                "reference": "074248ad68fb6669e951862d0f2f82a0d7c99b23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/45c91d7ed8a8804d20daf2e001e8e2b292aed77d",
-                "reference": "45c91d7ed8a8804d20daf2e001e8e2b292aed77d",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/074248ad68fb6669e951862d0f2f82a0d7c99b23",
+                "reference": "074248ad68fb6669e951862d0f2f82a0d7c99b23",
                 "shasum": ""
             },
             "require": {
@@ -459,7 +459,7 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/cakephp"
             },
-            "time": "2022-08-29T00:25:46+00:00"
+            "time": "2022-10-01T23:52:05+00:00"
         },
         {
             "name": "cakephp/chronos",
@@ -2795,16 +2795,16 @@
         },
         {
             "name": "cakephp/bake",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "fc7440b14a0b8cc5124164500e8cc3cca5f60fdd"
+                "reference": "7f7dac1dd9bb0f8c996e705e74cdec01dd600f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/fc7440b14a0b8cc5124164500e8cc3cca5f60fdd",
-                "reference": "fc7440b14a0b8cc5124164500e8cc3cca5f60fdd",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/7f7dac1dd9bb0f8c996e705e74cdec01dd600f57",
+                "reference": "7f7dac1dd9bb0f8c996e705e74cdec01dd600f57",
                 "shasum": ""
             },
             "require": {
@@ -2848,7 +2848,7 @@
                 "issues": "https://github.com/cakephp/bake/issues",
                 "source": "https://github.com/cakephp/bake"
             },
-            "time": "2022-09-19T02:34:05+00:00"
+            "time": "2022-09-26T06:58:44+00:00"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
@@ -6170,16 +6170,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077"
+                "reference": "c38fd6b0b7f370c198db91ffd02e23b517426b58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077",
-                "reference": "e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c38fd6b0b7f370c198db91ffd02e23b517426b58",
+                "reference": "c38fd6b0b7f370c198db91ffd02e23b517426b58",
                 "shasum": ""
             },
             "require": {
@@ -6230,7 +6230,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.4.2"
+                "source": "https://github.com/twigphp/Twig/tree/v3.4.3"
             },
             "funding": [
                 {
@@ -6242,7 +6242,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-12T06:47:24+00:00"
+            "time": "2022-09-28T08:42:51+00:00"
         }
     ],
     "aliases": [],
