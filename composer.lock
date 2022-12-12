@@ -2796,16 +2796,16 @@
         },
         {
             "name": "cakephp/bake",
-            "version": "2.8.1",
+            "version": "2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "7f7dac1dd9bb0f8c996e705e74cdec01dd600f57"
+                "reference": "ef021497ab517c33ecd97d2184200d8990ffc0ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/7f7dac1dd9bb0f8c996e705e74cdec01dd600f57",
-                "reference": "7f7dac1dd9bb0f8c996e705e74cdec01dd600f57",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/ef021497ab517c33ecd97d2184200d8990ffc0ab",
+                "reference": "ef021497ab517c33ecd97d2184200d8990ffc0ab",
                 "shasum": ""
             },
             "require": {
@@ -2849,7 +2849,7 @@
                 "issues": "https://github.com/cakephp/bake/issues",
                 "source": "https://github.com/cakephp/bake"
             },
-            "time": "2022-09-26T06:58:44+00:00"
+            "time": "2022-10-05T18:45:20+00:00"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
