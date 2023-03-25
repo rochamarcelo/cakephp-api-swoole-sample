@@ -1,9 +1,9 @@
 <?php
 
-use Cake\Cache\Engine\FileEngine;
+use Cake\Cache\Engine\ArrayEngine;
 use Cake\Database\Connection;
 use Cake\Database\Driver\Mysql;
-use Cake\Log\Engine\FileLog;
+use Cake\Log\Engine\ConsoleLog;
 use Cake\Mailer\Transport\MailTransport;
 
 return [
@@ -96,7 +96,7 @@ return [
      */
     'Cache' => [
         'default' => [
-            'className' => FileEngine::class,
+            'className' => ArrayEngine::class,
             'path' => CACHE,
             'url' => env('CACHE_DEFAULT_URL', null),
         ],
@@ -108,7 +108,7 @@ return [
          * If you set 'className' => 'Null' core cache will be disabled.
          */
         '_cake_core_' => [
-            'className' => FileEngine::class,
+            'className' => ArrayEngine::class,
             'prefix' => 'myapp_cake_core_',
             'path' => CACHE . 'persistent' . DS,
             'serialize' => true,
@@ -123,7 +123,7 @@ return [
          * Duration will be set to '+2 minutes' in bootstrap.php when debug = true
          */
         '_cake_model_' => [
-            'className' => FileEngine::class,
+            'className' => ArrayEngine::class,
             'prefix' => 'myapp_cake_model_',
             'path' => CACHE . 'models' . DS,
             'serialize' => true,
@@ -137,7 +137,7 @@ return [
          * Duration will be set to '+2 seconds' in bootstrap.php when debug = true
          */
         '_cake_routes_' => [
-            'className' => FileEngine::class,
+            'className' => ArrayEngine::class,
             'prefix' => 'myapp_cake_routes_',
             'path' => CACHE,
             'serialize' => true,
@@ -169,14 +169,14 @@ return [
      *   The conventional location for custom renderers is in `src/Error`. Your exception renderer needs to
      *   implement the `render()` method and return either a string or Http\Response.
      *   `errorRenderer` - string - The class responsible for rendering PHP errors. The selected
-     *   class will be used for both web and CLI contexts. If you want different classes for each environment 
+     *   class will be used for both web and CLI contexts. If you want different classes for each environment
      *   you'll need to write that conditional logic as well. Error renderers need to
      *   to implement the `Cake\Error\ErrorRendererInterface`.
      * - `skipLog` - array - List of exceptions to skip for logging. Exceptions that
      *   extend one of the listed exceptions will also be skipped for logging.
      *   E.g.:
      *   `'skipLog' => ['Cake\Http\Exception\NotFoundException', 'Cake\Http\Exception\UnauthorizedException']`
-     * - `extraFatalErrorMemory` - int - The number of megabytes to increase the memory limit by 
+     * - `extraFatalErrorMemory` - int - The number of megabytes to increase the memory limit by
      *   when a fatal error is encountered. This allows
      *   breathing room to complete logging or error handling.
      * - `ignoredDeprecationPaths` - array - A list of glob compatible file paths that deprecations
@@ -354,7 +354,7 @@ return [
      */
     'Log' => [
         'debug' => [
-            'className' => FileLog::class,
+            'className' => ConsoleLog::class,
             'path' => LOGS,
             'file' => 'debug',
             'url' => env('LOG_DEBUG_URL', null),
@@ -362,7 +362,7 @@ return [
             'levels' => ['notice', 'info', 'debug'],
         ],
         'error' => [
-            'className' => FileLog::class,
+            'className' => ConsoleLog::class,
             'path' => LOGS,
             'file' => 'error',
             'url' => env('LOG_ERROR_URL', null),
@@ -371,7 +371,7 @@ return [
         ],
         // To enable this dedicated query log, you need set your datasource's log flag to true
         'queries' => [
-            'className' => FileLog::class,
+            'className' => ConsoleLog::class,
             'path' => LOGS,
             'file' => 'queries',
             'url' => env('LOG_QUERIES_URL', null),

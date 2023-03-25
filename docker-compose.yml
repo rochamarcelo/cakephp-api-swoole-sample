@@ -12,7 +12,7 @@ version: '3'
 services:
   app:
     build: .
-    container_name: e15-api-app
+    container_name: cakephp-api-swoole-app
     environment:
       AUTORELOAD_PROGRAMS: "swoole"
       AUTORELOAD_ANY_FILES: 0
@@ -25,7 +25,7 @@ services:
       - ./:/var/www
   mysql:
     image: mysql:5.7
-    container_name: e15-api-mysql
+    container_name: cakephp-api-swoole-mysql
     working_dir: /application
     volumes:
       - .:/application
