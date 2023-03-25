@@ -19,16 +19,16 @@ class SwooleServer
     /**
      * @var \Cake\Core\HttpApplicationInterface
      */
-    protected $app;
+    protected HttpApplicationInterface $app;
 
     /**
      * @var \Cake\Http\Runner
      */
-    protected $runner;
+    protected Runner $runner;
     /**
-     * @var Swoole\Http\Server
+     * @var \Swoole\Http\Server
      */
-    protected $http;
+    protected \Swoole\Http\Server $http;
     /**
      * @var AppRequestFactory
      */
