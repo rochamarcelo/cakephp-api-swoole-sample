@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cakedc/auth",
-            "version": "7.1.0",
+            "version": "7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/auth.git",
-                "reference": "716617e26d1ca34675e52292d3ea380a8f753627"
+                "reference": "9e126f88c32e7ac89f4ab8e5942228c58e1c2d85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/auth/zipball/716617e26d1ca34675e52292d3ea380a8f753627",
-                "reference": "716617e26d1ca34675e52292d3ea380a8f753627",
+                "url": "https://api.github.com/repos/CakeDC/auth/zipball/9e126f88c32e7ac89f4ab8e5942228c58e1c2d85",
+                "reference": "9e126f88c32e7ac89f4ab8e5942228c58e1c2d85",
                 "shasum": ""
             },
             "require": {
@@ -73,27 +73,27 @@
                 "issues": "https://github.com/CakeDC/auth/issues",
                 "source": "https://github.com/CakeDC/auth"
             },
-            "time": "2022-07-01T09:14:54+00:00"
+            "time": "2022-12-05T11:49:25+00:00"
         },
         {
             "name": "cakedc/cakephp-api",
-            "version": "9.1.0",
+            "version": "9.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/cakephp-api.git",
-                "reference": "2ba2294bc638fee9de74549c57fc15e25501abea"
+                "reference": "2f2d3dc146d4664571eec6338dbb14b595c19194"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/cakephp-api/zipball/2ba2294bc638fee9de74549c57fc15e25501abea",
-                "reference": "2ba2294bc638fee9de74549c57fc15e25501abea",
+                "url": "https://api.github.com/repos/CakeDC/cakephp-api/zipball/2f2d3dc146d4664571eec6338dbb14b595c19194",
+                "reference": "2f2d3dc146d4664571eec6338dbb14b595c19194",
                 "shasum": ""
             },
             "require": {
                 "cakedc/users": "^11.0",
                 "cakephp/cakephp": "^4.3",
                 "ext-json": "*",
-                "firebase/php-jwt": "^5.0",
+                "firebase/php-jwt": "^6.2",
                 "lcobucci/jwt": "~4.0.0",
                 "php": ">=7.4"
             },
@@ -138,20 +138,20 @@
                 "issues": "https://github.com/CakeDC/cakephp-api/issues",
                 "source": "https://github.com/CakeDC/cakephp-api"
             },
-            "time": "2022-07-16T19:32:04+00:00"
+            "time": "2023-10-05T21:04:17+00:00"
         },
         {
             "name": "cakedc/users",
-            "version": "11.1.0",
+            "version": "11.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/users.git",
-                "reference": "5c8c5a06476d687ba775956fd80b0419a31f7029"
+                "reference": "b81c51db4bbb2ec48da7850b2a7ce69fef98887f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/users/zipball/5c8c5a06476d687ba775956fd80b0419a31f7029",
-                "reference": "5c8c5a06476d687ba775956fd80b0419a31f7029",
+                "url": "https://api.github.com/repos/CakeDC/users/zipball/b81c51db4bbb2ec48da7850b2a7ce69fef98887f",
+                "reference": "b81c51db4bbb2ec48da7850b2a7ce69fef98887f",
                 "shasum": ""
             },
             "require": {
@@ -173,7 +173,8 @@
                 "php-coveralls/php-coveralls": "^2.1",
                 "phpunit/phpunit": "^9.5",
                 "robthree/twofactorauth": "^1.6",
-                "web-auth/webauthn-lib": "v3.3.x-dev",
+                "thenetworg/oauth2-azure": "^2.1",
+                "web-auth/webauthn-lib": "^3.3",
                 "yubico/u2flib-server": "^1.0"
             },
             "suggest": {
@@ -185,7 +186,8 @@
                 "league/oauth2-instagram": "Provides Social Authentication with Instagram",
                 "league/oauth2-linkedin": "Provides Social Authentication with LinkedIn",
                 "luchianenco/oauth2-amazon": "Provides Social Authentication with Amazon",
-                "robthree/twofactorauth": "Provides Google Authenticator functionality"
+                "robthree/twofactorauth": "Provides Google Authenticator functionality",
+                "thenetworg/oauth2-azure": "Provides Social Authentication with MS Azure"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -221,24 +223,24 @@
                 "issues": "https://github.com/CakeDC/users/issues",
                 "source": "https://github.com/CakeDC/users"
             },
-            "time": "2022-03-11T13:46:53+00:00"
+            "time": "2023-09-21T15:23:08+00:00"
         },
         {
             "name": "cakephp/authentication",
-            "version": "2.9.0",
+            "version": "2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/authentication.git",
-                "reference": "71cfa8ab1b3e34699400528714a3575c5778e27d"
+                "reference": "643e17bcbbe2c5a01a5aaaa10d56df1a609ca6ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/authentication/zipball/71cfa8ab1b3e34699400528714a3575c5778e27d",
-                "reference": "71cfa8ab1b3e34699400528714a3575c5778e27d",
+                "url": "https://api.github.com/repos/cakephp/authentication/zipball/643e17bcbbe2c5a01a5aaaa10d56df1a609ca6ab",
+                "reference": "643e17bcbbe2c5a01a5aaaa10d56df1a609ca6ab",
                 "shasum": ""
             },
             "require": {
-                "cakephp/http": "^4.0",
+                "cakephp/http": "^4.4",
                 "laminas/laminas-diactoros": "^2.2.2",
                 "psr/http-client": "^1.0",
                 "psr/http-message": "^1.0",
@@ -246,9 +248,9 @@
                 "psr/http-server-middleware": "^1.0"
             },
             "require-dev": {
-                "cakephp/cakephp": "^4.0",
+                "cakephp/cakephp": "^4.4",
                 "cakephp/cakephp-codesniffer": "^4.0",
-                "firebase/php-jwt": "^5.5",
+                "firebase/php-jwt": "^6.2",
                 "phpunit/phpunit": "^8.5 || ^9.3"
             },
             "suggest": {
@@ -289,20 +291,20 @@
                 "issues": "https://github.com/cakephp/authentication/issues",
                 "source": "https://github.com/cakephp/authentication"
             },
-            "time": "2022-01-06T20:01:45+00:00"
+            "time": "2023-03-17T16:13:23+00:00"
         },
         {
             "name": "cakephp/authorization",
-            "version": "2.2.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/authorization.git",
-                "reference": "bb9aca461a4fe7c789ef841ca064f0577450f658"
+                "reference": "b6a05f8b8b39c32e9460c5e61f2c4abeea2f0df3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/authorization/zipball/bb9aca461a4fe7c789ef841ca064f0577450f658",
-                "reference": "bb9aca461a4fe7c789ef841ca064f0577450f658",
+                "url": "https://api.github.com/repos/cakephp/authorization/zipball/b6a05f8b8b39c32e9460c5e61f2c4abeea2f0df3",
+                "reference": "b6a05f8b8b39c32e9460c5e61f2c4abeea2f0df3",
                 "shasum": ""
             },
             "require": {
@@ -355,20 +357,20 @@
                 "issues": "https://github.com/cakephp/authorization/issues",
                 "source": "https://github.com/cakephp/authorization"
             },
-            "time": "2021-11-15T14:38:00+00:00"
+            "time": "2023-09-04T21:19:41+00:00"
         },
         {
             "name": "cakephp/cakephp",
-            "version": "4.4.17",
+            "version": "4.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "9ff254d6d60720089dec1e10aa1907e24e39a98e"
+                "reference": "34b4920bc8c13f8897434003e8aaaa605153d051"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/9ff254d6d60720089dec1e10aa1907e24e39a98e",
-                "reference": "9ff254d6d60720089dec1e10aa1907e24e39a98e",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/34b4920bc8c13f8897434003e8aaaa605153d051",
+                "reference": "34b4920bc8c13f8897434003e8aaaa605153d051",
                 "shasum": ""
             },
             "require": {
@@ -467,7 +469,7 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/cakephp"
             },
-            "time": "2023-08-20T02:36:22+00:00"
+            "time": "2023-09-22T07:53:48+00:00"
         },
         {
             "name": "cakephp/chronos",
@@ -714,25 +716,31 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v5.5.1",
+            "version": "v6.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "83b609028194aa042ea33b5af2d41a7427de80e6"
+                "reference": "f03270e63eaccf3019ef0f32849c497385774e11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/83b609028194aa042ea33b5af2d41a7427de80e6",
-                "reference": "83b609028194aa042ea33b5af2d41a7427de80e6",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/f03270e63eaccf3019ef0f32849c497385774e11",
+                "reference": "f03270e63eaccf3019ef0f32849c497385774e11",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": "^7.4||^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=4.8 <=9"
+                "guzzlehttp/guzzle": "^6.5||^7.4",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "phpunit/phpunit": "^9.5",
+                "psr/cache": "^1.0||^2.0",
+                "psr/http-client": "^1.0",
+                "psr/http-factory": "^1.0"
             },
             "suggest": {
+                "ext-sodium": "Support EdDSA (Ed25519) signatures",
                 "paragonie/sodium_compat": "Support EdDSA (Ed25519) signatures when libsodium is not present"
             },
             "type": "library",
@@ -765,9 +773,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v5.5.1"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.9.0"
             },
-            "time": "2021-11-08T20:18:51+00:00"
+            "time": "2023-10-05T00:24:42+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
