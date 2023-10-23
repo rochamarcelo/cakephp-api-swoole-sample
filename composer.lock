@@ -1163,30 +1163,31 @@
         },
         {
             "name": "mobiledetect/mobiledetectlib",
-            "version": "3.74.0",
+            "version": "3.74.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/serbanghita/Mobile-Detect.git",
-                "reference": "812a4aa4605c63fc33d7fe32ca82f29275940b9d"
+                "reference": "d1f56f0477efde80ba168f98fd7c0485cf8291bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/812a4aa4605c63fc33d7fe32ca82f29275940b9d",
-                "reference": "812a4aa4605c63fc33d7fe32ca82f29275940b9d",
+                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/d1f56f0477efde80ba168f98fd7c0485cf8291bf",
+                "reference": "d1f56f0477efde80ba168f98fd7c0485cf8291bf",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "v2.19.3",
-                "phpunit/phpunit": "^7.0.0",
-                "squizlabs/php_codesniffer": "3.*"
+                "friendsofphp/php-cs-fixer": "^3.14",
+                "phpunit/phpunit": "^9.6",
+                "squizlabs/php_codesniffer": "^3.7"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Detection\\": "src/"
+                    "Detection\\": "src/",
+                    "DetectionTests\\": "tests/"
                 },
                 "classmap": [
                     "src/MobileDetect.php"
@@ -1215,9 +1216,15 @@
             ],
             "support": {
                 "issues": "https://github.com/serbanghita/Mobile-Detect/issues",
-                "source": "https://github.com/serbanghita/Mobile-Detect/tree/3.74.0"
+                "source": "https://github.com/serbanghita/Mobile-Detect/tree/3.74.2"
             },
-            "time": "2022-12-04T15:37:32+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/serbanghita",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-10-17T18:28:47+00:00"
         },
         {
             "name": "psr/container",
