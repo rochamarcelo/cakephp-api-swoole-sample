@@ -77,16 +77,16 @@
         },
         {
             "name": "cakedc/cakephp-api",
-            "version": "9.1.5",
+            "version": "9.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/cakephp-api.git",
-                "reference": "ff784c8fd7f245d30e9b446e32d3087806d2aeb6"
+                "reference": "9dd4e05b0ec05606bf16301238923b8259d9681d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/cakephp-api/zipball/ff784c8fd7f245d30e9b446e32d3087806d2aeb6",
-                "reference": "ff784c8fd7f245d30e9b446e32d3087806d2aeb6",
+                "url": "https://api.github.com/repos/CakeDC/cakephp-api/zipball/9dd4e05b0ec05606bf16301238923b8259d9681d",
+                "reference": "9dd4e05b0ec05606bf16301238923b8259d9681d",
                 "shasum": ""
             },
             "require": {
@@ -138,20 +138,20 @@
                 "issues": "https://github.com/CakeDC/cakephp-api/issues",
                 "source": "https://github.com/CakeDC/cakephp-api"
             },
-            "time": "2023-11-15T14:17:53+00:00"
+            "time": "2023-12-08T12:07:32+00:00"
         },
         {
             "name": "cakedc/users",
-            "version": "11.3.3",
+            "version": "11.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/users.git",
-                "reference": "0ddaba1e8744e371c337b04579839f3cbfb6db32"
+                "reference": "50fd9e12030b65708dd2a2c0cec696fe01cfb603"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/users/zipball/0ddaba1e8744e371c337b04579839f3cbfb6db32",
-                "reference": "0ddaba1e8744e371c337b04579839f3cbfb6db32",
+                "url": "https://api.github.com/repos/CakeDC/users/zipball/50fd9e12030b65708dd2a2c0cec696fe01cfb603",
+                "reference": "50fd9e12030b65708dd2a2c0cec696fe01cfb603",
                 "shasum": ""
             },
             "require": {
@@ -223,7 +223,7 @@
                 "issues": "https://github.com/CakeDC/users/issues",
                 "source": "https://github.com/CakeDC/users"
             },
-            "time": "2023-10-27T12:31:46+00:00"
+            "time": "2023-11-22T18:15:15+00:00"
         },
         {
             "name": "cakephp/authentication",
@@ -717,16 +717,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.9.0",
+            "version": "v6.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "f03270e63eaccf3019ef0f32849c497385774e11"
+                "reference": "a49db6f0a5033aef5143295342f1c95521b075ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/f03270e63eaccf3019ef0f32849c497385774e11",
-                "reference": "f03270e63eaccf3019ef0f32849c497385774e11",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/a49db6f0a5033aef5143295342f1c95521b075ff",
+                "reference": "a49db6f0a5033aef5143295342f1c95521b075ff",
                 "shasum": ""
             },
             "require": {
@@ -774,9 +774,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.9.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.10.0"
             },
-            "time": "2023-10-05T00:24:42+00:00"
+            "time": "2023-12-01T16:26:39+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
