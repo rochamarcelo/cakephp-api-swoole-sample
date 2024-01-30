@@ -77,16 +77,16 @@
         },
         {
             "name": "cakedc/cakephp-api",
-            "version": "9.1.8",
+            "version": "9.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/cakephp-api.git",
-                "reference": "9dd4e05b0ec05606bf16301238923b8259d9681d"
+                "reference": "f92ab2cdfbaa3615b4755bda3de178f47db1d277"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/cakephp-api/zipball/9dd4e05b0ec05606bf16301238923b8259d9681d",
-                "reference": "9dd4e05b0ec05606bf16301238923b8259d9681d",
+                "url": "https://api.github.com/repos/CakeDC/cakephp-api/zipball/f92ab2cdfbaa3615b4755bda3de178f47db1d277",
+                "reference": "f92ab2cdfbaa3615b4755bda3de178f47db1d277",
                 "shasum": ""
             },
             "require": {
@@ -138,7 +138,7 @@
                 "issues": "https://github.com/CakeDC/cakephp-api/issues",
                 "source": "https://github.com/CakeDC/cakephp-api"
             },
-            "time": "2023-12-08T12:07:32+00:00"
+            "time": "2024-01-17T23:30:42+00:00"
         },
         {
             "name": "cakedc/users",
