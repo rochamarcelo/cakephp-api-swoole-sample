@@ -4,30 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "20ae96dd87131c5274d3da72905cbad9",
+    "content-hash": "b08a91d46560fade821cce5043771dab",
     "packages": [
         {
             "name": "cakedc/auth",
-            "version": "7.2.0",
+            "version": "9.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/auth.git",
-                "reference": "9e126f88c32e7ac89f4ab8e5942228c58e1c2d85"
+                "reference": "5e4e9a6c7bc162a28deaf696e96d5f3aa0cc94a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/auth/zipball/9e126f88c32e7ac89f4ab8e5942228c58e1c2d85",
-                "reference": "9e126f88c32e7ac89f4ab8e5942228c58e1c2d85",
+                "url": "https://api.github.com/repos/CakeDC/auth/zipball/5e4e9a6c7bc162a28deaf696e96d5f3aa0cc94a7",
+                "reference": "5e4e9a6c7bc162a28deaf696e96d5f3aa0cc94a7",
                 "shasum": ""
             },
             "require": {
                 "cakephp/cakephp": "^4.3",
-                "php": ">=7.2.0"
+                "php": ">=7.4.0"
             },
             "require-dev": {
                 "cakephp/authentication": "^2.0",
                 "cakephp/authorization": "^2.0",
                 "cakephp/cakephp-codesniffer": "^4.0",
+                "firebase/php-jwt": "^v6.8",
                 "google/recaptcha": "@stable",
                 "league/oauth1-client": "^1.7",
                 "league/oauth2-facebook": "@stable",
@@ -73,24 +74,24 @@
                 "issues": "https://github.com/CakeDC/auth/issues",
                 "source": "https://github.com/CakeDC/auth"
             },
-            "time": "2022-12-05T11:49:25+00:00"
+            "time": "2025-04-22T16:46:31+00:00"
         },
         {
             "name": "cakedc/cakephp-api",
-            "version": "9.1.9",
+            "version": "11.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/cakephp-api.git",
-                "reference": "f92ab2cdfbaa3615b4755bda3de178f47db1d277"
+                "reference": "f794100ce1d7c058a234ab39df34487bb6f57b8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/cakephp-api/zipball/f92ab2cdfbaa3615b4755bda3de178f47db1d277",
-                "reference": "f92ab2cdfbaa3615b4755bda3de178f47db1d277",
+                "url": "https://api.github.com/repos/CakeDC/cakephp-api/zipball/f794100ce1d7c058a234ab39df34487bb6f57b8d",
+                "reference": "f794100ce1d7c058a234ab39df34487bb6f57b8d",
                 "shasum": ""
             },
             "require": {
-                "cakedc/users": "^11.0",
+                "cakedc/users": "^13.0",
                 "cakephp/cakephp": "^4.3",
                 "ext-json": "*",
                 "firebase/php-jwt": "^6.2",
@@ -98,10 +99,13 @@
                 "php": ">=7.4"
             },
             "require-dev": {
-                "cakephp/cakephp-codesniffer": "~4.4.0",
+                "cakephp/cakephp-codesniffer": "^4.5",
                 "league/flysystem-vfs": "^1.0",
+                "phpstan/phpstan": "^1.8",
                 "phpunit/phpunit": "^9.5",
-                "vlucas/phpdotenv": "^3.3"
+                "robthree/twofactorauth": "^1.6",
+                "vlucas/phpdotenv": "^3.3",
+                "web-auth/webauthn-lib": "^3.3.11"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -138,24 +142,24 @@
                 "issues": "https://github.com/CakeDC/cakephp-api/issues",
                 "source": "https://github.com/CakeDC/cakephp-api"
             },
-            "time": "2024-01-17T23:30:42+00:00"
+            "time": "2024-10-04T21:06:17+00:00"
         },
         {
             "name": "cakedc/users",
-            "version": "11.3.4",
+            "version": "13.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/users.git",
-                "reference": "50fd9e12030b65708dd2a2c0cec696fe01cfb603"
+                "reference": "f8c1876bd77c1534f816993e1e8fe55970c67787"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/users/zipball/50fd9e12030b65708dd2a2c0cec696fe01cfb603",
-                "reference": "50fd9e12030b65708dd2a2c0cec696fe01cfb603",
+                "url": "https://api.github.com/repos/CakeDC/users/zipball/f8c1876bd77c1534f816993e1e8fe55970c67787",
+                "reference": "f8c1876bd77c1534f816993e1e8fe55970c67787",
                 "shasum": ""
             },
             "require": {
-                "cakedc/auth": "^7.0",
+                "cakedc/auth": "^9.0",
                 "cakephp/authentication": "^2.0.0",
                 "cakephp/authorization": "^2.0.0",
                 "cakephp/cakephp": "^4.5",
@@ -223,24 +227,24 @@
                 "issues": "https://github.com/CakeDC/users/issues",
                 "source": "https://github.com/CakeDC/users"
             },
-            "time": "2023-11-22T18:15:15+00:00"
+            "time": "2024-09-05T08:32:39+00:00"
         },
         {
             "name": "cakephp/authentication",
-            "version": "2.10.2",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/authentication.git",
-                "reference": "64964e5a503a7d2a5560dfabc1b5d4439f61cdae"
+                "reference": "62f63d0c625766b93b03d2e2e275078388ee39e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/authentication/zipball/64964e5a503a7d2a5560dfabc1b5d4439f61cdae",
-                "reference": "64964e5a503a7d2a5560dfabc1b5d4439f61cdae",
+                "url": "https://api.github.com/repos/cakephp/authentication/zipball/62f63d0c625766b93b03d2e2e275078388ee39e7",
+                "reference": "62f63d0c625766b93b03d2e2e275078388ee39e7",
                 "shasum": ""
             },
             "require": {
-                "cakephp/http": "^4.4",
+                "cakephp/http": "^4.5",
                 "laminas/laminas-diactoros": "^2.2.2",
                 "psr/http-client": "^1.0",
                 "psr/http-message": "^1.0",
@@ -248,7 +252,7 @@
                 "psr/http-server-middleware": "^1.0"
             },
             "require-dev": {
-                "cakephp/cakephp": "^4.4",
+                "cakephp/cakephp": "^4.5",
                 "cakephp/cakephp-codesniffer": "^4.0",
                 "firebase/php-jwt": "^6.2",
                 "phpunit/phpunit": "^8.5 || ^9.3"
@@ -291,24 +295,24 @@
                 "issues": "https://github.com/cakephp/authentication/issues",
                 "source": "https://github.com/cakephp/authentication"
             },
-            "time": "2023-10-01T18:57:13+00:00"
+            "time": "2024-10-18T13:15:59+00:00"
         },
         {
             "name": "cakephp/authorization",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/authorization.git",
-                "reference": "94fadea13efdc624e1da7a5c1c35f962ba78cc98"
+                "reference": "27c9d551d37c663b7c61819e24c2e45ec043b8f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/authorization/zipball/94fadea13efdc624e1da7a5c1c35f962ba78cc98",
-                "reference": "94fadea13efdc624e1da7a5c1c35f962ba78cc98",
+                "url": "https://api.github.com/repos/cakephp/authorization/zipball/27c9d551d37c663b7c61819e24c2e45ec043b8f8",
+                "reference": "27c9d551d37c663b7c61819e24c2e45ec043b8f8",
                 "shasum": ""
             },
             "require": {
-                "cakephp/http": "^4.0",
+                "cakephp/http": "^4.2",
                 "php": ">=7.2",
                 "psr/http-client": "^1.0",
                 "psr/http-message": "^1.0",
@@ -357,20 +361,20 @@
                 "issues": "https://github.com/cakephp/authorization/issues",
                 "source": "https://github.com/cakephp/authorization"
             },
-            "time": "2023-11-10T20:55:18+00:00"
+            "time": "2024-10-18T13:24:21+00:00"
         },
         {
             "name": "cakephp/cakephp",
-            "version": "4.5.6",
+            "version": "4.5.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "39aa903620065161dc0d2bdcdaa440e887f574d0"
+                "reference": "789c840475a9b55ada2c2f80b41a22f61815b7c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/39aa903620065161dc0d2bdcdaa440e887f574d0",
-                "reference": "39aa903620065161dc0d2bdcdaa440e887f574d0",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/789c840475a9b55ada2c2f80b41a22f61815b7c4",
+                "reference": "789c840475a9b55ada2c2f80b41a22f61815b7c4",
                 "shasum": ""
             },
             "require": {
@@ -470,20 +474,20 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/cakephp"
             },
-            "time": "2024-06-23T00:19:33+00:00"
+            "time": "2025-03-22T03:03:08+00:00"
         },
         {
             "name": "cakephp/chronos",
-            "version": "2.4.4",
+            "version": "2.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/chronos.git",
-                "reference": "03208c18eb3267490662e68671bb9c22aa804492"
+                "reference": "b0321ab7658af9e7abcb3dd876f226e6f3dbb81f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/chronos/zipball/03208c18eb3267490662e68671bb9c22aa804492",
-                "reference": "03208c18eb3267490662e68671bb9c22aa804492",
+                "url": "https://api.github.com/repos/cakephp/chronos/zipball/b0321ab7658af9e7abcb3dd876f226e6f3dbb81f",
+                "reference": "b0321ab7658af9e7abcb3dd876f226e6f3dbb81f",
                 "shasum": ""
             },
             "require": {
@@ -528,7 +532,7 @@
                 "issues": "https://github.com/cakephp/chronos/issues",
                 "source": "https://github.com/cakephp/chronos"
             },
-            "time": "2023-11-03T05:26:08+00:00"
+            "time": "2024-07-30T22:26:11+00:00"
         },
         {
             "name": "cakephp/migrations",
@@ -641,16 +645,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.5.0",
+            "version": "1.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "0c5ccfcfea312b5c5a190a21ac5cef93f74baf99"
+                "reference": "d665d22c417056996c59019579f1967dfe5c1e82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/0c5ccfcfea312b5c5a190a21ac5cef93f74baf99",
-                "reference": "0c5ccfcfea312b5c5a190a21ac5cef93f74baf99",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/d665d22c417056996c59019579f1967dfe5c1e82",
+                "reference": "d665d22c417056996c59019579f1967dfe5c1e82",
                 "shasum": ""
             },
             "require": {
@@ -660,8 +664,8 @@
             },
             "require-dev": {
                 "phpstan/phpstan": "^1.10",
-                "psr/log": "^1.0",
-                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "phpunit/phpunit": "^8 || ^9",
+                "psr/log": "^1.0 || ^2.0 || ^3.0",
                 "symfony/process": "^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
             "type": "library",
@@ -697,7 +701,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.5.0"
+                "source": "https://github.com/composer/ca-bundle/tree/1.5.7"
             },
             "funding": [
                 {
@@ -713,7 +717,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-15T14:00:32+00:00"
+            "time": "2025-05-26T15:08:54+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -819,8 +823,8 @@
             "type": "library",
             "extra": {
                 "laminas": {
-                    "config-provider": "Laminas\\Diactoros\\ConfigProvider",
-                    "module": "Laminas\\Diactoros"
+                    "module": "Laminas\\Diactoros",
+                    "config-provider": "Laminas\\Diactoros\\ConfigProvider"
                 }
             },
             "autoload": {
@@ -1081,16 +1085,16 @@
         },
         {
             "name": "league/container",
-            "version": "4.2.2",
+            "version": "4.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/container.git",
-                "reference": "ff346319ca1ff0e78277dc2311a42107cc1aab88"
+                "reference": "d3cebb0ff4685ff61c749e54b27db49319e2ec00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/container/zipball/ff346319ca1ff0e78277dc2311a42107cc1aab88",
-                "reference": "ff346319ca1ff0e78277dc2311a42107cc1aab88",
+                "url": "https://api.github.com/repos/thephpleague/container/zipball/d3cebb0ff4685ff61c749e54b27db49319e2ec00",
+                "reference": "d3cebb0ff4685ff61c749e54b27db49319e2ec00",
                 "shasum": ""
             },
             "require": {
@@ -1115,11 +1119,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.x-dev",
-                    "dev-4.x": "4.x-dev",
-                    "dev-3.x": "3.x-dev",
+                    "dev-1.x": "1.x-dev",
                     "dev-2.x": "2.x-dev",
-                    "dev-1.x": "1.x-dev"
+                    "dev-3.x": "3.x-dev",
+                    "dev-4.x": "4.x-dev",
+                    "dev-master": "4.x-dev"
                 }
             },
             "autoload": {
@@ -1151,7 +1155,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/container/issues",
-                "source": "https://github.com/thephpleague/container/tree/4.2.2"
+                "source": "https://github.com/thephpleague/container/tree/4.2.5"
             },
             "funding": [
                 {
@@ -1159,7 +1163,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-13T13:12:53+00:00"
+            "time": "2025-05-20T12:55:37+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -6421,12 +6425,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.4"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
