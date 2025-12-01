@@ -78,16 +78,16 @@
         },
         {
             "name": "cakedc/cakephp-api",
-            "version": "11.0.3",
+            "version": "11.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/cakephp-api.git",
-                "reference": "99dd603f3555a641b895bd0968a852612f070c4b"
+                "reference": "e3fe32db7864f0d125653425662767e3734e4266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/cakephp-api/zipball/99dd603f3555a641b895bd0968a852612f070c4b",
-                "reference": "99dd603f3555a641b895bd0968a852612f070c4b",
+                "url": "https://api.github.com/repos/CakeDC/cakephp-api/zipball/e3fe32db7864f0d125653425662767e3734e4266",
+                "reference": "e3fe32db7864f0d125653425662767e3734e4266",
                 "shasum": ""
             },
             "require": {
@@ -142,7 +142,7 @@
                 "issues": "https://github.com/CakeDC/cakephp-api/issues",
                 "source": "https://github.com/CakeDC/cakephp-api"
             },
-            "time": "2025-11-01T08:37:04+00:00"
+            "time": "2025-11-26T00:49:29+00:00"
         },
         {
             "name": "cakedc/users",
@@ -645,16 +645,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.5.8",
+            "version": "1.5.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "719026bb30813accb68271fee7e39552a58e9f65"
+                "reference": "1905981ee626e6f852448b7aaa978f8666c5bc54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/719026bb30813accb68271fee7e39552a58e9f65",
-                "reference": "719026bb30813accb68271fee7e39552a58e9f65",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/1905981ee626e6f852448b7aaa978f8666c5bc54",
+                "reference": "1905981ee626e6f852448b7aaa978f8666c5bc54",
                 "shasum": ""
             },
             "require": {
@@ -701,7 +701,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.5.8"
+                "source": "https://github.com/composer/ca-bundle/tree/1.5.9"
             },
             "funding": [
                 {
@@ -713,7 +713,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-08-20T18:49:47+00:00"
+            "time": "2025-11-06T11:46:17+00:00"
         },
         {
             "name": "firebase/php-jwt",
